@@ -57,17 +57,17 @@ export default function Terminal() {
 
   return (
     <div 
-      className="flex flex-col w-[900px] h-[85vh] overflow-auto no-scrollbar h-[70vh] font-mono space-y-4 bg-black/70 backdrop-blur-sm rounded-lg border-2 border-blue-800/90 p-4"
+      className="flex flex-col w-full max-w-4xl h-[85vh] overflow-auto no-scrollbar font-mono space-y-4 bg-black/70 backdrop-blur-sm rounded-lg border-2 border-blue-800/90 p-2 sm:p-4"
       onClick={handleClick}
       ref={terminalRef}
     >
       <div className="flex flex-col">
-        <p className='text-slate-100 text-xl'>Anjany Kumar Jaiswal</p>
-        <p className='text-zinc-400 text-md'>Full Stack & Machine Learning Developer</p>
+        <p className='text-slate-100 text-lg sm:text-xl'>Anjany Kumar Jaiswal</p>
+        <p className='text-zinc-400 text-sm sm:text-md'>Full Stack & Machine Learning Developer</p>
         <div className='w-full h-[2px] bg-zinc-600 rounded-xl mt-2' />
       </div>
 
-      <div className="flex flex-col text-[17px] text-slate-200 space-y-1">
+      <div className="flex flex-col text-sm sm:text-base text-slate-200 space-y-1">
         <p>{'>'} hi!.</p>
         <p>{'>'} my name is Anjany, i am full stack dev with expertise in machine learning and deep learning.</p>
         <p>{'>'} I solve leetcode do competitive programming in C++ and C.</p>
@@ -80,24 +80,24 @@ export default function Terminal() {
         {history.map((entry, index) => (
           <div key={index} className="mb-2">
             <div className="flex flex-row items-center space-x-2">
-              <p className="text-blue-400 text-lg"> {'>'} {entry.command}</p>
+              <p className="text-blue-400 text-base sm:text-lg"> {'>'} {entry.command}</p>
             </div>
-            <div className="whitespace-pre-wrap text-lg text-green-300 ml-1">{entry.output}</div>
+            <div className="whitespace-pre-wrap text-base sm:text-lg text-green-300 ml-1">{entry.output}</div>
           </div>
         ))}
       </div>
       
       <div className="flex items-center">
-        <span className="text-slate-300 text-lg">$</span>
+        <span className="text-slate-300 text-base sm:text-lg">$</span>
         <input
           ref={inputRef}
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyDown}
-          className="flex-1 ml-2 bg-transparent border-none outline-none caret-slate-500 text-zinc-300 placeholder-zinc-500 text-lg"
+          className="flex-1 ml-2 bg-transparent border-none outline-none caret-slate-500 text-zinc-300 placeholder-zinc-500 text-base sm:text-lg"
           autoFocus
-          placeholder="type 'help' to see a list of commands"
+          placeholder="type 'help' to see list of commands"
         />
       </div>
     </div>
