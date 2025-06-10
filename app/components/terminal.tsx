@@ -57,7 +57,7 @@ export default function Terminal() {
 
   return (
     <div 
-      className="flex flex-col w-[900px] h-[85vh] overflow-auto no-scrollbar h-[70vh] font-mono space-y-4 bg-black/70 backdrop-blur-sm rounded-lg border-2 border-blue-800/90 p-4"
+      className="flex flex-col w-full max-w-[900px] h-[70vh] md:h-[85vh] overflow-auto no-scrollbar font-mono space-y-4 bg-black/70 backdrop-blur-sm rounded-lg border-2 border-blue-800/90 p-2 md:p-4 mx-auto"
       onClick={handleClick}
       ref={terminalRef}
     >
