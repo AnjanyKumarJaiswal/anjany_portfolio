@@ -15,15 +15,15 @@ export default function Home() {
         Your browser does not support the video tag.
       </video>
       <Terminal/>
-      <div className='relative flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-24 w-full items-center'>
+      <div className='relative flex flex-row space-x-24'>
         <div className='flex justify-center items-center font-monospace'>
-          <a href='https://x.com/AnjanyJais67401' className='text-lg text-indigo-700 hover:text-indigo-700 hover:underline hover:cursor-pointer'>[twitter]</a>
+          <a href='https://x.com/AnjanyJais67401' className='text-lg text-indigo-700 hover:text-indiggo-700 hover:underline hover:cursor-pointer'>[twitter]</a>
         </div>
         <div className='flex justify-center items-center font-monospace'>
-          <a href='https://github.com/AnjanyKumarJaiswal' className='text-lg text-indigo-700 hover:text-indigo-700 hover:underline hover:cursor-pointer'>[github]</a>
+          <a href='https://github.com/AnjanyKumarJaiswal' className='text-lg text-indigo-700 hover:text-indiggo-700 hover:underline hover:cursor-pointer'>[github]</a>
         </div>
         <div className='flex justify-center items-center font-monospace'>
-          <a href='https://www.linkedin.com/in/anjany5322/' className='text-lg text-indigo-700 hover:text-indigo-700 hover:underline hover:cursor-pointer'>[linkedin]</a>
+          <a href='https://www.linkedin.com/in/anjany5322/' className='text-lg text-indigo-700 hover:text-indiggo-700 hover:underline hover:cursor-pointer'>[linkedin]</a>
         </div>
       </div>
     </div>
