@@ -7,7 +7,7 @@ const commands = {
   about: "I'm Anjany Kumar Jaiswal, a Full Stack Developer and ML Developer building scalable applications and intelligent systems.",
   projects: '1. ZenViz: A GitHub repo visualizer. \n2. VisionText-LLM: An RAG app for PDFs. \n3. QueryHandler: A multi-agent RAG system.',
   skills: 'Languages:C/C++, JavaScript, TypeScript, Python, Go-Lang\nBackend Frameworks:Flask, FastAPI, Node.js, Expressjs, Redis, Docker,\nML/AI: Pandas, Numpy, Scikit-Learn, NLTK, PyTorch, Tensorflow, LangChain, LangGraph, HuggingFace\nCloud: AWS, Google Cloud Platform, Vercel, Render',
-  socials: 'You can find me on:\n- Twitter: https://x.com/AnjanyJais67401 \n- GitHub: https://github.com/AnjanyKumarJaiswal\n- LinkedIn: https://linkedin.com/in/anjany5322 \n - Leetcode:  https://leetcode.com/u/user2466Uz/ \n - Codeforces: https://codeforces.com/profile/anjany_22',
+  socials: 'You can find me on:\n- Twitter: https://x.com/AnjanyJais67401\n- GitHub: https://github.com/AnjanyKumarJaiswal\n- LinkedIn: https://linkedin.com/in/anjany5322\n- Leetcode:  https://leetcode.com/u/user2466Uz/\n- Codeforces: https://codeforces.com/profile/anjany_22',
   clear: ''
 };
 
